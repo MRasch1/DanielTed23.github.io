@@ -1,5 +1,5 @@
 {
-  "name": "mit-projekt",
+  "name": "danielted23.github.io",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "build:docs": "ng build --output-path docs --base-href ./",
     "serve:ssr:mit-projekt": "node dist/mit-projekt/server/server.mjs"
   },
   "prettier": {
